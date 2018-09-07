@@ -1,0 +1,160 @@
+/**************************************
+/
+/ STYLESHEET USED TO FORMAT
+/ AUTOMATED INSIGHTS EMAILS
+/
+/**************************************/
+
+
+/**************************************
+/FORMAT TOP3/BOTTOM3 TABLE
+/**************************************/
+
+.table-top-bottom {
+   border: 0px;
+   cellpadding: 0px;
+   cellspacing: 0px;
+   color: #606266;
+   font-family: Helvetica;
+   font-size: 12px;
+   width: 550px;
+   overflow: hidden;	
+	text-overflow: ellipsis;        	
+	white-space: nowrap;
+}
+
+.table-divider {
+  background-color: #707276;
+}
+
+.table-footer {
+  background-color: #019dd8;
+  color: #FFFFFF;
+  font-family: Helvetica;
+  font-size: 10px;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+  height: 8px;
+  text-align: center;
+}
+
+.img-title {
+  display: block;
+  height: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  outline: 0px;
+  padding:0px;
+  text-align:center;
+  width: 160px;
+}
+
+.img-top-bottom-arrow {
+  display: block;
+  height: 60px;
+  outline: 0px;
+  padding:0px;
+  text-align:left;
+  width: 50px;
+}
+
+.img-gray-bar {
+  display: block;
+  height: 5px;
+  outline: 0px;
+  padding: 0px;
+  text-align: center;
+  width: 550px;
+}
+
+.column-headers {
+  background-color: white;
+  border: 1px solid #019dd8;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  color: white;
+  font-family: Helvetica;
+  text-align: center;
+}
+
+.td-description {
+    display: block;
+    padding-left: 3px;
+  width: 150px;
+  	overflow: hidden;	
+	text-overflow: ellipsis;        	
+	white-space: nowrap;
+}
+
+.td-dollar {
+  text-align: right;
+  width: 50px;
+}
+
+.td-bps {
+  font-style: italic;
+  text-align: right;
+  width: 50px;
+}
+
+.td-danger {
+  color: #d60037;
+}
+
+.td-img-top-bottom-arrow {
+  width: 50px;
+}
+
+
+/**************************************
+/FORMAT CATEGORY PERFORMANCE BAR CHART
+/**************************************/
+
+.table-cat-perf {    	                
+	border-spacing: 4px;
+	color:#707276;
+	font-family: Helvetica;
+	text-align: left;
+	width: 550px;
+}
+    
+.table-cat-perf .column-headers {
+	color: #019dd8;                        
+	text-align: center;
+	width: 100%;
+}
+
+.table-cat-perf .td-description { 
+	font-size: 13px;
+
+}    
+
+.td-bar-chart {
+	width: 35%;
+}    
+
+.td-bar-chart table {
+	width: 100%;
+}
+
+.td-bar-positive {
+	background-color: #85c63f;
+    border: 1px solid #85c63f;
+	height: 100%;
+}
+
+.td-bar-label-positive {
+	float: left;
+    font-size: 12px;
+}
+
+.td-bar-negative {
+	background-color: #d60037;
+    border: 1px solid #d60037;
+	height: 100%;
+}
+
+.td-bar-label-negative {
+	float: right;
+	font-size: 12px;
+	white-space: nowrap;
